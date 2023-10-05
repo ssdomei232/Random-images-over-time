@@ -26,17 +26,6 @@
 ## 使用我的API ##
 稳定性不要说，肯定不稳定，要是真懒狗可以用，反正我自己也用,服务器在香港
 分时段
->https://api.mmeiblog.cn/rd-v2_1
-
-不分时段:
-横屏
->https://rd.api.mmeiblog.cn/pc
-
-竖屏
->https://rd.api.mmeiblog.cn/ph
-
-方形
->https://rd.api.mmeiblog.cn/sq
-
+>https://api.mmeiblog.cn/rd-v2
 如果觉得好玩可以去我的blog看看 喵~
 mmeiblog.cn
