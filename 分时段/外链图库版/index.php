@@ -30,7 +30,16 @@ if ($currentHour >= 6 && $currentHour < 8) {
     $randomImageUrl = $eveningImageUrls[array_rand($eveningImageUrls)];  
 }  
   
-// 返回图片URL  
-echo $randomImageUrl;  
-header('Location: ' . $randomImageUrl);  
+// 输出
+if (empty($mode)) {
+    header('Location: ' . $randomImageUrl);
+    exit;
+} elseif ($mode == 'json') {
+    header('Content-Type: application/json');
+    echo json_encode(['image_url' => $randomImageUrl,'mode' => 'json']);
+    exit;
+} else {
+    header('Location: ' . $randomImageUrl);
+    exit;
+}
 ?>
