@@ -7,5 +7,5 @@
 清晨dawn 上午morning 中午noon 下午dusk  晚上evening
 
 ## 参数
-json: 以json格式输出,示例`https://api.mmeiblog.cn/rd/pc/yt/?m=json`    
-redirect: 重定向至图片URL,示例`https://api.mmeiblog.cn/rd/pc/yt/?m=redirect`
+json: 以json格式输出,示例`https://api.mmeiblog.cn/?api=pic&et=pc&mode=json`    
+redirect: 重定向至图片URL,示例`https://api.mmeiblog.cn/?api=pic&et=pc&mode=redirect`
